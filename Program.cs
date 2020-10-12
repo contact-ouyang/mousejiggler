@@ -27,8 +27,8 @@ namespace ArkaneSystems.MouseJiggle
     {
         private const int  AttachParentProcess = -1 ;
 
-        public static bool StartJiggling ;
-        public static bool ZenJiggling ;
+        public static bool StartJiggling = true;
+        public static bool ZenJiggling = true;
         public static bool StartMinimized ;
 
 

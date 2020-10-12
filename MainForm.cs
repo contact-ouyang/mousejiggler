@@ -127,7 +127,7 @@ namespace ArkaneSystems.MouseJiggle
         {
             int value = trkTime.Value;
             lblTime.Text = value + "s";
-            jiggleTimer.Interval = value * 1000;
+            jiggleTimer.Interval = value * 1000; //tick event is in milliseconds, from milliseconds to seconds
         }
     }
 }

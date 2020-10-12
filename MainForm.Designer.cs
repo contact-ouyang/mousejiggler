@@ -98,15 +98,15 @@ namespace ArkaneSystems.MouseJiggle
             // 
             this.trkTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.trkTime.LargeChange = 10;
+            this.trkTime.LargeChange = 60;
             this.trkTime.Location = new System.Drawing.Point(12, 61);
-            this.trkTime.Maximum = 60;
+            this.trkTime.Maximum = 300;
             this.trkTime.Minimum = 1;
             this.trkTime.Name = "trkTime";
             this.trkTime.Size = new System.Drawing.Size(132, 45);
             this.trkTime.TabIndex = 4;
-            this.trkTime.TickFrequency = 5;
-            this.trkTime.Value = 1;
+            this.trkTime.TickFrequency = 60;
+            this.trkTime.Value = 120;
             this.trkTime.Scroll += new System.EventHandler(this.trkTime_Scroll);
             // 
             // lblTime
@@ -117,7 +117,7 @@ namespace ArkaneSystems.MouseJiggle
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(132, 13);
             this.lblTime.TabIndex = 5;
-            this.lblTime.Text = "1s";
+            this.lblTime.Text = this.trkTime.Value.ToString()+"s";
             this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm
