@@ -126,8 +126,33 @@ namespace ArkaneSystems.MouseJiggle
         private void trkTime_Scroll(object sender, EventArgs e)
         {
             int value = trkTime.Value;
-            lblTime.Text = value + "s";
+            this.textBox1.Text = value.ToString();
             jiggleTimer.Interval = value * 1000; //tick event is in milliseconds, from milliseconds to seconds
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (this.textBox1.Enabled)
+            {
+                this.button1.Text = "Edit";
+                try
+                {
+                    int value = int.Parse(this.textBox1.Text);
+                    trkTime.Value = value;
+                    jiggleTimer.Interval = value * 1000;
+                }
+                catch
+                {
+
+                }
+                this.textBox1.Enabled = false;
+            }
+            else
+            {
+                this.button1.Text = "Ok";
+                this.textBox1.Enabled = true;
+            }
+        }
+
     }
 }
