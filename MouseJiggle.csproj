@@ -21,11 +21,11 @@
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
-    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>\\arkane-systems.lan\Folders\home\avatar\My Dropbox\Apps\Azure\arkane-softwaredeployment\mousejiggler\</PublishUrl>
+    <PublishUrl>C:\Users\conta\Downloads\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Web</InstallFrom>
+    <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -33,8 +33,7 @@
     <UpdatePeriodically>true</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://arkane-softwaredeployment.azurewebsites.net/mousejiggler/</InstallUrl>
-    <SupportUrl>http://arkane.fogbugz.com/</SupportUrl>
+    <SupportUrl></SupportUrl>
     <ProductName>MouseJiggler</ProductName>
     <PublisherName>Arkane Systems</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
