@@ -113,14 +113,17 @@ namespace ArkaneSystems.MouseJiggle
 
         private void nifMin_DoubleClick (object sender, EventArgs e)
         {
-            // restore the window
-            this.Visible = true ;
-
             // replace in taskbar
             this.ShowInTaskbar = true ;
 
             // hide tray icon
             this.nifMin.Visible = false ;
+
+
+            using (var a = new PasswordForm(this))
+            {
+                a.ShowDialog();
+            }
         }
 
         private void trkTime_Scroll(object sender, EventArgs e)

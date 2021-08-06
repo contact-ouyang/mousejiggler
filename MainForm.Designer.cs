@@ -51,9 +51,9 @@ namespace ArkaneSystems.MouseJiggle
             // cbEnabled
             // 
             this.cbEnabled.AutoSize = true;
-            this.cbEnabled.Location = new System.Drawing.Point(13, 12);
+            this.cbEnabled.Location = new System.Drawing.Point(13, 13);
             this.cbEnabled.Name = "cbEnabled";
-            this.cbEnabled.Size = new System.Drawing.Size(108, 16);
+            this.cbEnabled.Size = new System.Drawing.Size(92, 17);
             this.cbEnabled.TabIndex = 0;
             this.cbEnabled.Text = "Enable jiggle?";
             this.cbEnabled.UseVisualStyleBackColor = true;
@@ -61,9 +61,9 @@ namespace ArkaneSystems.MouseJiggle
             // 
             // cmdAbout
             // 
-            this.cmdAbout.Location = new System.Drawing.Point(111, 6);
+            this.cmdAbout.Location = new System.Drawing.Point(111, 7);
             this.cmdAbout.Name = "cmdAbout";
-            this.cmdAbout.Size = new System.Drawing.Size(33, 21);
+            this.cmdAbout.Size = new System.Drawing.Size(33, 23);
             this.cmdAbout.TabIndex = 1;
             this.cmdAbout.Text = "?";
             this.cmdAbout.UseVisualStyleBackColor = true;
@@ -72,9 +72,9 @@ namespace ArkaneSystems.MouseJiggle
             // cbZenJiggle
             // 
             this.cbZenJiggle.AutoSize = true;
-            this.cbZenJiggle.Location = new System.Drawing.Point(25, 33);
+            this.cbZenJiggle.Location = new System.Drawing.Point(25, 36);
             this.cbZenJiggle.Name = "cbZenJiggle";
-            this.cbZenJiggle.Size = new System.Drawing.Size(90, 16);
+            this.cbZenJiggle.Size = new System.Drawing.Size(78, 17);
             this.cbZenJiggle.TabIndex = 2;
             this.cbZenJiggle.Text = "Zen jiggle?";
             this.cbZenJiggle.UseVisualStyleBackColor = true;
@@ -83,9 +83,9 @@ namespace ArkaneSystems.MouseJiggle
             // cmdToTray
             // 
             this.cmdToTray.Image = ((System.Drawing.Image)(resources.GetObject("cmdToTray.Image")));
-            this.cmdToTray.Location = new System.Drawing.Point(111, 30);
+            this.cmdToTray.Location = new System.Drawing.Point(111, 33);
             this.cmdToTray.Name = "cmdToTray";
-            this.cmdToTray.Size = new System.Drawing.Size(33, 21);
+            this.cmdToTray.Size = new System.Drawing.Size(33, 23);
             this.cmdToTray.TabIndex = 3;
             this.cmdToTray.UseVisualStyleBackColor = true;
             this.cmdToTray.Click += new System.EventHandler(this.cmdToTray_Click);
@@ -93,7 +93,7 @@ namespace ArkaneSystems.MouseJiggle
             // nifMin
             // 
             this.nifMin.Icon = ((System.Drawing.Icon)(resources.GetObject("nifMin.Icon")));
-            this.nifMin.Text = "Mouse Jiggler";
+            this.nifMin.Text = "Mouse J";
             this.nifMin.DoubleClick += new System.EventHandler(this.nifMin_DoubleClick);
             // 
             // trkTime
@@ -101,7 +101,7 @@ namespace ArkaneSystems.MouseJiggle
             this.trkTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.trkTime.LargeChange = 60;
-            this.trkTime.Location = new System.Drawing.Point(12, 56);
+            this.trkTime.Location = new System.Drawing.Point(12, 61);
             this.trkTime.Maximum = 300;
             this.trkTime.Minimum = 1;
             this.trkTime.Name = "trkTime";
@@ -115,9 +115,9 @@ namespace ArkaneSystems.MouseJiggle
             // 
             this.lblTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTime.Location = new System.Drawing.Point(66, 83);
+            this.lblTime.Location = new System.Drawing.Point(66, 90);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(133, 12);
+            this.lblTime.Size = new System.Drawing.Size(133, 13);
             this.lblTime.TabIndex = 5;
             this.lblTime.Text = "s";
             this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -125,17 +125,18 @@ namespace ArkaneSystems.MouseJiggle
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(65, 83);
+            this.textBox1.Location = new System.Drawing.Point(65, 90);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(35, 21);
+            this.textBox1.Size = new System.Drawing.Size(35, 20);
             this.textBox1.TabIndex = 6;
             this.textBox1.Text = "191";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(53, 107);
+            this.button1.Location = new System.Drawing.Point(52, 116);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(62, 21);
+            this.button1.Size = new System.Drawing.Size(62, 23);
             this.button1.TabIndex = 7;
             this.button1.Text = "Edit";
             this.button1.UseVisualStyleBackColor = true;
@@ -143,9 +144,9 @@ namespace ArkaneSystems.MouseJiggle
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(157, 130);
+            this.ClientSize = new System.Drawing.Size(157, 141);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblTime);
